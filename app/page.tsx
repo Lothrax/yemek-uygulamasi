@@ -136,7 +136,7 @@ export default function Home() {
 
       {/* HERO */}
       <div className="max-w-4xl mx-auto text-center mb-12 md:-mt-10">
-        <img src="/logo.png" className="h-60 w-auto mx-auto mb-2 drop-shadow-2xl" />
+       <img src="/logo.png" className="h-60 w-auto mb-2 drop-shadow-2xl ml-60 mr-auto" />
         <h1 className="text-6xl md:text-8xl font-black text-orange-600 mb-6 italic tracking-tighter uppercase leading-none">Şefin Tarif Mutfağı</h1>
         <div className="bg-orange-200/50 text-orange-800 px-6 py-2 rounded-full text-[11px] font-black tracking-widest uppercase mb-10 border border-orange-200 inline-block shadow-sm">
           {kullanici?.email === GELISTIRICI_EMAIL ? "👑 SINIRSIZ ERİŞİM" : `GÜNLÜK KALAN HAKKIN: ${kalanHak} / 3`}
